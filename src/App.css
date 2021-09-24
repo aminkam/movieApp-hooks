@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+*{
+    background: #141414 ;
+    color: #ffffff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img{
+    width: 250px;
+    height: 300px;
+    border-radius: 20px 20px 0 0 ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ahmed {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    width: 100%;
+}
+.navbarr {
+    width: 50px;
+    height: auto;
+    margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.search{
+    float: right;
+    margin-bottom: 80px;
+    margin-top: -65px;
+    background-color: #141414;
 }
-
-.App-link {
-  color: #61dafb;
+.search > input {
+    background: #ffffff;
+    border-radius: 20px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.names > h2 {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 16px;
+    color:burlywood;
+    background: rgb(248, 248, 248);
+}
+.names > h3 {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 16px;
+    color:burlywood;
+    margin-bottom: 15px;
+    background: rgb(248, 248, 248);
+}
+.names {
+    background: rgb(248, 248, 248);
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.starss {
+    text-align: center;
+    cursor: pointer;
+    background-color: #141414 ;
+}
+.modall{
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: goldenrod;
+}
+.rat {
+    display: flex;
+    background-color: #FBFCFC ;
+      
+}
+.amin {
+    border-radius: 20px;
+    background: rgb(192, 175, 77);
+}
+.form {
+    background-color:#FBFCFC ;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.form ,input , label{
+    background-color:#FBFCFC ;
+    color: black;
+}
+.form, label {
+    margin-right: 45px;
+    float: left;
+}
+.formm ,input{
+    margin-left: 15px;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    width: 80%;
+    
+}
+.sam {
+    background-color: #FBFCFC ;
+}
+.but{
+    background-color: #FBFCFC ;
+    margin-left: 120px;
+}
+.but > button {
+    margin-top: 35px;
+    border-radius: 20px;
+    background-color: #BFC9CA ;
+    
 }
