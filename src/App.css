@@ -108,3 +108,42 @@
     background-color: #BFC9CA ;
     
 }
+.btn_info{
+    background-color: #707a86;
+    text-align: center;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    border-radius: 20px;
+}
+.navOptions{
+    text-decoration: none;
+    color: gray;
+    margin-top: 8px;
+    font-size: 18px;
+    margin-left: 15px;
+}
+.info-button{
+    border-radius: 15px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(150, 151, 145);
+    text-decoration: underline rgb(150, 151, 145);
+    
+}
+.info-pages{
+background-color: red;
+width: 850px;
+height: 460px;
+display: flex;
+}
+.info-pages > img {
+    width: 250px;
+    height: 300px;
+}
+.info-p{
+    height: 25px;
+}

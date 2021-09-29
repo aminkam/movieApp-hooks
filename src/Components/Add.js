@@ -49,7 +49,7 @@ const Add = ({ add }) => {
   }
 
   return (
-   <div >  
+   <div className="modall">  
      <div >
       <button className="amin" onClick={openModal}>Movie Add</button>
       

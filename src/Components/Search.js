@@ -4,7 +4,7 @@ import StarRating from "./StarRating";
 
 const Search = ({ text, rating, handleChange, handleRating }) => {
   return (
-    <div>
+    <div className="Search">
       <form className="search" action="">
         <FaSistrix />
         <input type="text" value={text} onChange={handleChange} />
